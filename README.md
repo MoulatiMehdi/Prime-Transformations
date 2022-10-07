@@ -2,27 +2,27 @@
 # The Problem : 
 
 Every integer 2 or greater N has a unique prime factorisation such that
-N = P1^Q1 × P2^Q2...
+N = P1^Q1 × P2^Q2...<br>
 where Pi are ascending prime numbers and Qi are positive power indices.
 
 Examples
-30 = (2^1)×(3^1)×(5^1)
-96 = (2^5)× (3^1)
-900 = (2^2)×(3^2)×(5^2)
+30 = (2^1)×(3^1)×(5^1)<br>
+96 = (2^5)× (3^1)<br>
+900 = (2^2)×(3^2)×(5^2)<br>
 
 Consider a transformation that takes all values in a given finite set of primes and maps each prime to another one (it can be the same prime as before, and not necessarily in the initial set, but no two primes map to the same prime).
 
-For example, take a transformation which has the following mapping:
-2 -> 11
-3 -> 17
-5 -> 2
+For example, take a transformation which has the following mapping:<br>
+2 -> 11<br>
+3 -> 17<br>
+5 -> 2<br>
 
-Then
-4 -> 121, (2^2 -> 11^2)
-9 -> 289, (3^2 -> 17^2)
-25 -> 4, (5^2 -> 2^2)
-6 -> 187 ((2^1)×(3^1) -> (11^1)×(17^1))
-10 -> 22 ((2^1)×(5^1) -> (11^1)×(2^1))
+Then<br>
+4 -> 121, (2^2 -> 11^2)<br>
+9 -> 289, (3^2 -> 17^2)<br>
+25 -> 4, (5^2 -> 2^2)<br>
+6 -> 187 ((2^1)×(3^1) -> (11^1)×(17^1))<br>
+10 -> 22 ((2^1)×(5^1) -> (11^1)×(2^1))<br>
 
 Your task, given a set of transformed pairs, is to find the transformation and thus apply it to a given integer X.
 
@@ -40,7 +40,7 @@ Constraints
 2 ≤ Pi ≤ 100
 
 # Example
-  Input       Output
+  Input       Output<br>
 16          625 <br>
 1<br>
 2 5<br>
