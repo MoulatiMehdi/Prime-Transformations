@@ -41,7 +41,7 @@ Constraints
 
 # Example
   Input       Output
-16          625
-1
-2 5
+16          625 <br>
+1<br>
+2 5<br>
 
