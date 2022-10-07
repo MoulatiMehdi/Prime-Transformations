@@ -40,8 +40,8 @@ One line containing Y, the result of the transformation applied to X.
   2 ≤ Pi ≤ 100<br>
 
 # Example
-  Input       Output<br>
-16          625 <br>
-1<br>
-2 5<br>
+  ### Input         Output<br>
+      16            625 <br>
+      1
+      2  5<br>
 
