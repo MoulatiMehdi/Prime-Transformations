@@ -35,9 +35,9 @@ Next C Lines: For each line, a pair of integers Ai and Bi such that the transfor
 # Output :
 
 One line containing Y, the result of the transformation applied to X.
- ## Constraints
-  2 ≤ Ai, Bi, X, Y < 2^63
-  2 ≤ Pi ≤ 100
+ ### Constraints
+  2 ≤ Ai, Bi, X, Y < 2^63<br>
+  2 ≤ Pi ≤ 100<br>
 
 # Example
   Input       Output<br>
