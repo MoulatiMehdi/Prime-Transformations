@@ -1,5 +1,5 @@
-# Prime-Transformations
-###The Problem : 
+
+# The Problem : 
 
 Every integer 2 or greater N has a unique prime factorisation such that
 N = P1^Q1 × P2^Q2...
@@ -26,10 +26,13 @@ Then
 
 Your task, given a set of transformed pairs, is to find the transformation and thus apply it to a given integer X.
 
+# input : 
+
 Line 1: X the integer to transform
 Line 2: C the number of clues given about the transformation
 Next C Lines: For each line, a pair of integers Ai and Bi such that the transformation maps Ai to Bi
-Output
+# Output :
+
 One line containing Y, the result of the transformation applied to X.
 Constraints
 2 ≤ Ai, Bi, X, Y < 2^63
