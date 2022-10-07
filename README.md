@@ -31,9 +31,17 @@ Your task, given a set of transformed pairs, is to find the transformation and t
 Line 1: X the integer to transform
 Line 2: C the number of clues given about the transformation
 Next C Lines: For each line, a pair of integers Ai and Bi such that the transformation maps Ai to Bi
+
 # Output :
 
 One line containing Y, the result of the transformation applied to X.
 Constraints
 2 ≤ Ai, Bi, X, Y < 2^63
 2 ≤ Pi ≤ 100
+
+# Example
+  Input       Output
+16          625
+1
+2 5
+
