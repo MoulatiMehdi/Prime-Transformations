@@ -1,5 +1,5 @@
 # Prime-Transformations
-The Problem : 
+###The Problem : 
 
 Every integer 2 or greater N has a unique prime factorisation such that
 N = P1^Q1 × P2^Q2...
